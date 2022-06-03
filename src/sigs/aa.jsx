@@ -15,14 +15,11 @@ const AASignature = ( { name, title, mobile, officePhone = '02 9659 4411', email
                         <tbody>
                           <tr>
                             <td className="sc-TOsTZ kjYrri" style={{textAlign: 'center'}}>
-                              <img src={img} role="presentation" width={153} className="sc-cHGsZl bHiaRe" style={{maxWidth: '153px', display: 'block'}} />
+                              <img src={img} role="presentation" alt={name} width={133} height={200} className="sc-cHGsZl bHiaRe" style={{maxWidth: '133px', display: 'block'}} />
                             </td>
                           </tr>
                           <tr>
-                            <td height={30} />
-                          </tr>
-                          <tr>
-                            <td style={{textAlign: 'center'}}>
+                            <td style={{textAlign: 'center', paddingTop: '20px'}}>
                               <table cellPadding={0} cellSpacing={0} className="sc-gPEVay eQYmiW" style={{verticalAlign: '-webkit-baseline-middle', fontSize: 'medium', fontFamily: 'Arial', display: 'inline-block'}}>
                                 <tbody>
                                   <tr style={{textAlign: 'center'}}>
@@ -58,7 +55,7 @@ const AASignature = ( { name, title, mobile, officePhone = '02 9659 4411', email
                         </tbody>
                       </table>
                     </td>
-                    <td width={46}>
+                    <td width={20}>
                       <div />
                     </td>
                     <td style={{padding: '0px', verticalAlign: 'middle'}}>
