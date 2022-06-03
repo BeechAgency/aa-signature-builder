@@ -6,19 +6,15 @@ import AASignature from './sigs/aa';
 
 
 function App() {
-  const [activeSig, setActiveSig] = useState('OldSigTemplate');
-
   const [name, setName] = useState('Alexander Appointments');
   const [title, setTitle] = useState('Title of Role');
   const [mobile, setMobile] = useState('0405 000 000');
   const [email, setEmail] = useState('aa@alexanderappointments.com.au');
   const [img, setImg] = useState('https://www.dropbox.com/s/s7q7niioxvj0tkc/Daniel-Colour.png?raw=1');
-  const [lineColor, setLineColor] = useState('#fcb415');
 
   const [website, setWebsite] = useState('alexanderappointments.com.au');
   const [fullURL, setFullURL] = useState('https://alexanderappointments.com.au');
   const [officePhone, setOfficePhone] = useState('02 4940 8686');
-  const [address, setAddress] = useState('Atlas Norwest<br /> Suite 415, Level 4 /n 2-8 Brookhollow Avenue, /n Norwest Business Park /nNorwest NSW 2153');
 
   const [linkedIn, setLinkedIn] = useState('https://www.linkedin.com/company/alexander-appointments');
 
@@ -26,38 +22,15 @@ function App() {
   
   const [codeVisible, setCodeVisible] = useState(false);
 
-  const [sigOutput, setSigOutput] = useState(<AASignature name={name} title={title} mobile={mobile} email={email} img={img} href={fullURL} displayUrl={website} linkedIn={linkedIn} address={address} officePhone={officePhone} />);
+  const [sigOutput, setSigOutput] = useState(<AASignature name={name} title={title} mobile={mobile} email={email} img={img} href={fullURL} displayUrl={website} linkedIn={linkedIn} officePhone={officePhone} />);
 
   const [isCopied, setIsCopied] = useState(false);
 
 
 
   useEffect( () => {
-    setSigOutput(<AASignature name={name} title={title} mobile={mobile} email={email} img={img} href={fullURL} displayUrl={website} linkedIn={linkedIn} address={address} officePhone={officePhone} />);
-  }, [name, title, mobile, email, img, fullURL, website, linkedIn, address, officePhone]);
-
-  function copySignature() {
-    //const cb = navigator.clipboard;
-    const sig = document.querySelector('.sig-container');
-
-    // const { ClipboardItem } = window;
-
-    // create a Range object
-    let range = document.createRange();  
-    
-    // set the Node to select the "range"
-    range.selectNode(sig);
-    
-    // add the Range to the set of window selections
-    window.getSelection().addRange(range);
-     
-    // execute 'copy', can't 'cut' in this case
-    document.execCommand('copy');
-    
-    //navigator.clipboard.writeText(finishedSignature);
-
-    return;
-  }
+    setSigOutput(<AASignature name={name} title={title} mobile={mobile} email={email} img={img} href={fullURL} displayUrl={website} linkedIn={linkedIn} officePhone={officePhone} />);
+  }, [name, title, mobile, email, img, fullURL, website, linkedIn, officePhone]);
 
   function copyTheSignature(str) {
     function listener(e) {
@@ -120,7 +93,7 @@ function App() {
   return (
     <div className="App">
       <div className="heading-block">
-        <h1 style={{borderBottomColor: lineColor}}>Alexander Appointments<br /> Signature Builder <span className='attr'>by BEECH</span></h1>
+        <h1>Alexander Appointments<br /> Signature Builder <span className='attr'>by BEECH</span></h1>
       </div>
      
       <header className="App-header">   
