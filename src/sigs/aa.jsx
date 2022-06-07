@@ -15,7 +15,7 @@ const AASignature = ( { name, title, mobile, officePhone = '02 9659 4411', email
                         <tbody>
                           <tr>
                             <td className="sc-TOsTZ kjYrri" style={{textAlign: 'center'}}>
-                              <img src={img} role="presentation" alt={name} width={133} height={200} className="sc-cHGsZl bHiaRe" style={{maxWidth: '133px', display: 'block'}} />
+                              <img src={img} role="presentation" alt={name} width={100} height={150} className="sc-cHGsZl bHiaRe" style={{maxWidth: '100px', display: 'block'}} />
                             </td>
                           </tr>
                           <tr>
@@ -24,24 +24,24 @@ const AASignature = ( { name, title, mobile, officePhone = '02 9659 4411', email
                                 <tbody>
                                   <tr style={{textAlign: 'center'}}>
                                     <td>
-                                      <a href="https://www.facebook.com/alexanderappointments/" color="#000000" className="sc-hzDkRC kpsoyz" style={{display: 'inline-block', padding: '0px', backgroundColor: 'rgb(0, 0, 0)', textDecoration: 'none'}}>
-                                        <img src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/facebook-icon-2x.png" alt="facebook" color="#000000" height={24} className="sc-bRBYWo ccSRck" style={{backgroundColor: 'rgb(0, 0, 0)', maxWidth: '135px', display: 'block'}} />
+                                      <a href="https://www.facebook.com/alexanderappointments/" color="#000000" className="sc-hzDkRC kpsoyz" style={{display: 'inline-block', padding: '0px', backgroundColor: 'rgb(255,255,255)', textDecoration: 'none', textDecoration: 'none !important'}}>
+                                        <img src="https://www.dropbox.com/s/kfoz1n401c9raph/aa-fb.png?raw=1" alt="facebook" color="#000000" height={24} className="sc-bRBYWo ccSRck" style={{backgroundColor: 'rgb(255,255,255)', maxWidth: '135px', display: 'block'}} />
                                       </a>
                                     </td>
                                     <td width={5}>
                                       <div />
                                     </td>
                                     <td>
-                                      <a href={linkedIn} color="#000000" className="sc-hzDkRC kpsoyz" style={{display: 'inline-block', padding: '0px', backgroundColor: 'rgb(0, 0, 0)', textDecoration: 'none'}}>
-                                        <img src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/linkedin-icon-2x.png" alt="linkedin" color="#000000" height={24} className="sc-bRBYWo ccSRck" style={{backgroundColor: 'rgb(0, 0, 0)', maxWidth: '135px', display: 'block'}} />
+                                      <a href={linkedIn} color="#000000" className="sc-hzDkRC kpsoyz" style={{display: 'inline-block', padding: '0px', backgroundColor: 'rgb(255,255,255)', textDecoration: 'none', textDecoration: 'none !important'}}>
+                                        <img src="https://www.dropbox.com/s/wxkvh4qj0fac9h8/aa-in.png?raw=1" alt="linkedin" color="#000000" height={24} className="sc-bRBYWo ccSRck" style={{backgroundColor: 'rgb(255,255,255)', maxWidth: '135px', display: 'block'}} />
                                       </a>
                                     </td>
                                     <td width={5}>
                                       <div />
                                     </td>
                                     <td>
-                                      <a href="https://www.instagram.com/alexanderappointments/?hl=en" color="#000000" className="sc-hzDkRC kpsoyz" style={{display: 'inline-block', padding: '0px', backgroundColor: 'rgb(0, 0, 0)', textDecoration: 'none'}}>
-                                        <img src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/instagram-icon-2x.png" alt="instagram" color="#000000" height={24} className="sc-bRBYWo ccSRck" style={{backgroundColor: 'rgb(0, 0, 0)', maxWidth: '135px', display: 'block'}} />
+                                      <a href="https://www.instagram.com/alexanderappointments/?hl=en" color="#000000" className="sc-hzDkRC kpsoyz" style={{display: 'inline-block', padding: '0px', backgroundColor: 'rgb(255,255,255)', textDecoration: 'none', textDecoration: 'none !important'}}>
+                                        <img src="https://www.dropbox.com/s/guzpq8ojdezzrn8/aa-li.png?raw=1" alt="instagram" color="#000000" height={24} className="sc-bRBYWo ccSRck" style={{backgroundColor: 'rgb(255,255,255)', maxWidth: '135px', display: 'block'}} />
                                       </a>
                                     </td>
                                     <td width={5}>
@@ -68,13 +68,13 @@ const AASignature = ( { name, title, mobile, officePhone = '02 9659 4411', email
                       <table cellPadding={0} cellSpacing={0} className="sc-gPEVay eQYmiW" style={{verticalAlign: '-webkit-baseline-middle', fontSize: 'medium', fontFamily: 'Arial', width: '100%'}}>
                         <tbody>
                           <tr>
-                            <td height={30} />
+                            <td height={15} />
                           </tr>
                           <tr>
-                            <td color="#787878" direction="horizontal" height={1} className="sc-jhAzac hmXDXQ" style={{width: '100%', borderBottom: '1px solid rgb(120, 120, 120)', borderLeft: 'none', display: 'block'}} />
+                            <td color="#787878" direction="horizontal" height={1} className="sc-jhAzac hmXDXQ" style={{width: '100%', borderBottom: '1px solid rgb(120,120,120)', borderLeft: 'none', display: 'block'}} />
                           </tr>
                           <tr>
-                            <td height={30} />
+                            <td height={15} />
                           </tr>
                         </tbody>
                       </table>
@@ -86,8 +86,8 @@ const AASignature = ( { name, title, mobile, officePhone = '02 9659 4411', email
                                 <tbody>
                                   <tr>
                                     <td style={{verticalAlign: 'bottom'}}>
-                                      <span color="#787878" width={11} className="sc-jlyJG bbyJzT" style={{display: 'block', backgroundColor: 'rgb(120, 120, 120)'}}>
-                                        <img src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/phone-icon-2x.png" alt="" color="#787878" width={13} className="sc-iRbamj blSEcj" style={{display: 'block', backgroundColor: 'rgb(120, 120, 120)'}} />
+                                      <span color="#787878" width={11} className="sc-jlyJG bbyJzT" style={{display: 'block', backgroundColor: 'rgb(255,255,255)'}}>
+                                        <img src="https://www.dropbox.com/s/p34h4ljmug8jcyl/aa-phone.png?raw=1" alt="" color="#787878" width={13} className="sc-iRbamj blSEcj" style={{display: 'block', backgroundColor: 'rgb(255,255,255)'}} />
                                       </span>
                                     </td>
                                   </tr>
@@ -95,9 +95,9 @@ const AASignature = ( { name, title, mobile, officePhone = '02 9659 4411', email
                               </table>
                             </td>
                             <td style={{padding: '0px', color: 'rgb(0, 0, 0)'}}>
-                              <a href={`tel:${officePhone}`} color="#000000" className="sc-gipzik iyhjGb" style={{textDecoration: 'none', color: 'rgb(0, 0, 0)', fontSize: '12px'}}>
+                              <a href={`tel:${officePhone}`} color="#000000" className="sc-gipzik iyhjGb" style={{textDecoration: 'none', color: 'rgb(0, 0, 0)', fontSize: '11px',  textDecoration: 'none !important'}}>
                                 <span>{officePhone}</span>
-                              </a> | <a href={"tel:"+mobile} color="#000000" className="sc-gipzik iyhjGb" style={{textDecoration: 'none', color: 'rgb(0, 0, 0)', fontSize: '12px'}}>
+                              </a> | <a href={"tel:"+mobile} color="#000000" className="sc-gipzik iyhjGb" style={{textDecoration: 'none', color: 'rgb(0, 0, 0)', fontSize: '11px',  textDecoration: 'none !important'}}>
                                 <span>{mobile}</span>
                               </a>
                             </td>
@@ -108,8 +108,8 @@ const AASignature = ( { name, title, mobile, officePhone = '02 9659 4411', email
                                 <tbody>
                                   <tr>
                                     <td style={{verticalAlign: 'bottom'}}>
-                                      <span color="#787878" width={11} className="sc-jlyJG bbyJzT" style={{display: 'block', backgroundColor: 'rgb(120, 120, 120)'}}>
-                                        <img src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/email-icon-2x.png"  alt="" color="#787878" width={13} className="sc-iRbamj blSEcj" style={{display: 'block', backgroundColor: 'rgb(120, 120, 120)'}} />
+                                      <span color="#787878" width={11} className="sc-jlyJG bbyJzT" style={{display: 'block', backgroundColor: 'rgb(255,255,255)'}}>
+                                        <img src="https://www.dropbox.com/s/rw6su9imafxgkxo/aa-mail.png?raw=1"  alt="" color="#787878" width={13} className="sc-iRbamj blSEcj" style={{display: 'block', backgroundColor: 'rgb(255,255,255)'}} />
                                       </span>
                                     </td>
                                   </tr>
@@ -117,7 +117,7 @@ const AASignature = ( { name, title, mobile, officePhone = '02 9659 4411', email
                               </table>
                             </td>
                             <td style={{padding: '0px'}}>
-                              <a href={`mailto:${email}`} color="#000000" className="sc-gipzik iyhjGb"  style={{textDecoration: 'none', color: 'rgb(0, 0, 0)', fontSize: '12px'}}>
+                              <a href={`mailto:${email}`} color="#000000" className="sc-gipzik iyhjGb"  style={{textDecoration: 'none', color: 'rgb(0, 0, 0)', fontSize: '11px',  textDecoration: 'none !important'}}>
                                 <span>{email}</span>
                               </a>
                             </td>
@@ -128,8 +128,8 @@ const AASignature = ( { name, title, mobile, officePhone = '02 9659 4411', email
                                 <tbody>
                                   <tr>
                                     <td style={{verticalAlign: 'bottom'}}>
-                                      <span color="#787878" width={11} className="sc-jlyJG bbyJzT" style={{display: 'block', backgroundColor: 'rgb(120, 120, 120)'}}>
-                                        <img src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/link-icon-2x.png"  alt="" color="#787878" width={13} className="sc-iRbamj blSEcj" style={{display: 'block', backgroundColor: 'rgb(120, 120, 120)'}} />
+                                      <span color="#787878" width={11} className="sc-jlyJG bbyJzT" style={{display: 'block', backgroundColor: 'rgb(255,255,255)'}}>
+                                        <img src="https://www.dropbox.com/s/g8cgbjhdf52j0gx/aa-link.png?raw=1"  alt="" color="#787878" width={13} className="sc-iRbamj blSEcj" style={{display: 'block', backgroundColor: 'rgb(255,255,255)'}} />
                                       </span>
                                     </td>
                                   </tr>
@@ -137,7 +137,7 @@ const AASignature = ( { name, title, mobile, officePhone = '02 9659 4411', email
                               </table>
                             </td>
                             <td style={{padding: '0px'}}>
-                              <a href={href} color="#000000" className="sc-gipzik iyhjGb" style={{textDecoration: 'none', color: 'rgb(0, 0, 0)', fontSize: '12px'}}>
+                              <a href={href} color="#000000" className="sc-gipzik iyhjGb" style={{textDecoration: 'none', color: 'rgb(0, 0, 0)', fontSize: '11px',  textDecoration: 'none !important'}}>
                                 <span>{displayUrl}</span>
                               </a>
                             </td>
@@ -148,8 +148,8 @@ const AASignature = ( { name, title, mobile, officePhone = '02 9659 4411', email
                                 <tbody>
                                   <tr>
                                     <td style={{verticalAlign: 'bottom'}}>
-                                      <span color="#787878" width={11} className="sc-jlyJG bbyJzT" style={{display: 'block', backgroundColor: 'rgb(120, 120, 120)'}}>
-                                        <img src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/address-icon-2x.png" alt="" color="#787878" width={13} className="sc-iRbamj blSEcj" style={{display: 'block', backgroundColor: 'rgb(120, 120, 120)'}} />
+                                      <span color="#787878" width={11} className="sc-jlyJG bbyJzT" style={{display: 'block', backgroundColor: 'rgb(255,255,255)'}}>
+                                        <img src="https://www.dropbox.com/s/carq8w9fbjy1es9/aa-location.png?raw=1" alt="" color="#787878" width={13} className="sc-iRbamj blSEcj" style={{display: 'block', backgroundColor: 'rgb(255,255,255)'}} />
                                       </span>
                                     </td>
                                   </tr>
@@ -157,8 +157,8 @@ const AASignature = ( { name, title, mobile, officePhone = '02 9659 4411', email
                               </table>
                             </td>
                             <td style={{padding: '0px'}}>
-                              <span color="#000000" className="sc-csuQGl CQhxV" style={{fontSize: '12px', color: 'rgb(0, 0, 0)'}}>
-                                Suite 415, Level 4, 2-8 Brookhollow Ave, <br />
+                              <span color="#000000" className="sc-csuQGl CQhxV" style={{fontSize: '11px', color: 'rgb(0, 0, 0)'}}>
+                                Suite 415, Level 4,<br /> 2-8 Brookhollow Ave, <br />
                                 Norwest NSW 2153
                               </span>
                             </td>
