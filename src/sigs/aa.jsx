@@ -36,7 +36,7 @@ const AASignature = ( { name, title, mobile, officePhone = '02 9659 4411', email
                                       </td>
                                       <td>
                                         <a ref={ el => { if (el) el.style.setProperty('text-decoration', 'none', 'important'); }}  href={linkedIn} color="#000000" className="sc-hzDkRC kpsoyz" style={{display: 'inline-block', padding: '0px', backgroundColor: 'rgb(255,255,255)',  textDecoration: 'none', textDecorationColor: '#ffffff'}}>
-                                          <img src="https://www.dropbox.com/s/wxkvh4qj0fac9h8/aa-in.png?raw=1" alt="linkedin" color="#000000" height={24} className="sc-bRBYWo ccSRck" style={{backgroundColor: 'rgb(255,255,255)', maxWidth: '135px', display: 'block'}} />
+                                          <img src="https://www.dropbox.com/s/guzpq8ojdezzrn8/aa-li.png?raw=1" alt="linkedin" color="#000000" height={24} className="sc-bRBYWo ccSRck" style={{backgroundColor: 'rgb(255,255,255)', maxWidth: '135px', display: 'block'}} />
                                         </a>
                                       </td>
                                       <td width={5}>
@@ -44,7 +44,7 @@ const AASignature = ( { name, title, mobile, officePhone = '02 9659 4411', email
                                       </td>
                                       <td>
                                         <a ref={ el => { if (el) el.style.setProperty('text-decoration', 'none', 'important'); }}  href="https://www.instagram.com/alexanderappointments/?hl=en" color="#000000" className="sc-hzDkRC kpsoyz" style={{display: 'inline-block', padding: '0px', backgroundColor: 'rgb(255,255,255)',  textDecoration: 'none', textDecorationColor: '#ffffff'}}>
-                                          <img src="https://www.dropbox.com/s/guzpq8ojdezzrn8/aa-li.png?raw=1" alt="instagram" color="#000000" height={24} className="sc-bRBYWo ccSRck" style={{backgroundColor: 'rgb(255,255,255)', maxWidth: '135px', display: 'block'}} />
+                                          <img src="https://www.dropbox.com/s/wxkvh4qj0fac9h8/aa-in.png?raw=1" alt="instagram" color="#000000" height={24} className="sc-bRBYWo ccSRck" style={{backgroundColor: 'rgb(255,255,255)', maxWidth: '135px', display: 'block'}} />
                                         </a>
                                       </td>
                                       <td width={5}>
@@ -182,10 +182,10 @@ const AASignature = ( { name, title, mobile, officePhone = '02 9659 4411', email
               </td>
             </tr>
             <tr>
-              <td height={15}></td>
+              <td height={5}></td>
             </tr>
             <tr>
-              <td style={{paddingLeft: 0, paddingRight: 0, paddingTop: 40, paddingBottom: 0, fontSize: '10px', lineHeight: '14px', color: '#787878' }}>This email and any attachments with it are confidential, may be subject to copyright and are intended solely for the use of the addressee. If you are not the intended recipient, you must not copy, retain or distribute it or take any action in reliance on it. If you have received this email in error, please notify us and destroy the original transmission.</td>
+              <td style={{paddingLeft: 0, paddingRight: 0, paddingTop: 10, paddingBottom: 0, fontSize: '10px', lineHeight: '14px', color: '#787878' }}>This email and any attachments with it are confidential, may be subject to copyright and are intended solely for the use of the addressee. If you are not the intended recipient, you must not copy, retain or distribute it or take any action in reliance on it. If you have received this email in error, please notify us and destroy the original transmission.</td>
             </tr>
           </tbody>
       </table>
