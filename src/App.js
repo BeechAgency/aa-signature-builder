@@ -14,7 +14,7 @@ function App() {
 
   const [website, setWebsite] = useState('alexanderappointments.com.au');
   const [fullURL, setFullURL] = useState('https://alexanderappointments.com.au');
-  const [officePhone, setOfficePhone] = useState('02 4940 8686');
+  const [officePhone, setOfficePhone] = useState('02 9659 4411');
 
   const [linkedIn, setLinkedIn] = useState('https://www.linkedin.com/company/alexander-appointments');
 
