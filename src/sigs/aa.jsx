@@ -185,7 +185,7 @@ const AASignature = ( { name, title, mobile, officePhone = '02 9659 4411', email
               <td height={5}></td>
             </tr>
             <tr>
-              <td style={{paddingLeft: 0, paddingRight: 0, paddingTop: 10, paddingBottom: 0, fontSize: '10px', lineHeight: '14px', color: '#787878' }}>This email and any attachments with it are confidential, may be subject to copyright and are intended solely for the use of the addressee. If you are not the intended recipient, you must not copy, retain or distribute it or take any action in reliance on it. If you have received this email in error, please notify us and destroy the original transmission.</td>
+              <td style={{paddingLeft: 0, paddingRight: 0, paddingTop: 10, paddingBottom: 0, fontSize: '10px', lineHeight: '14px', color: '#787878' }}><div style={{maxWidth: '450px'}}>This email and any attachments with it are confidential, may be subject to copyright and are intended solely for the use of the addressee. If you are not the intended recipient, you must not copy, retain or distribute it or take any action in reliance on it. If you have received this email in error, please notify us and destroy the original transmission.</div></td>
             </tr>
           </tbody>
       </table>
